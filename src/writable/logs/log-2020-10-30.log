@@ -1,0 +1,13 @@
+CRITICAL - 2020-10-30 16:42:30 --> Unknown column 'name' in 'order clause'
+#0 /home/rads/Projetos/Bravi Test/bravi-contact-list-api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /home/rads/Projetos/Bravi Test/bravi-contact-list-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rads/Projetos/Bravi Test/bravi-contact-list-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rads/Projetos/Bravi Test/bravi-contact-list-api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rads/Projetos/Bravi Test/bravi-contact-list-api/vendor/codeigniter4/framework/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rads/Projetos/Bravi Test/bravi-contact-list-api/app/Controllers/Countries.php(14): CodeIgniter\Model->findAll()
+#6 /home/rads/Projetos/Bravi Test/bravi-contact-list-api/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Countries->index()
+#7 /home/rads/Projetos/Bravi Test/bravi-contact-list-api/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /home/rads/Projetos/Bravi Test/bravi-contact-list-api/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/rads/Projetos/Bravi Test/bravi-contact-list-api/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /home/rads/Projetos/Bravi Test/bravi-contact-list-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/rads/Proj...')
+#11 {main}
