@@ -54,7 +54,7 @@ For the **Update** call, the entity ID must be included in the body of the call,
 3. `cd` to this project's root directory and `docker-compose up`;
 4. Have fun at `http://localhost:8080`;
 5. Project source code is located at `[project_root]/src/`;
-6. MySQL initialization script is located at `[project_root]/docker/mysql/db_setu.sql`;
+6. MySQL initialization script is located at `[project_root]/docker/mysql/db_setup.sql`;
 
 ## Resources
 
